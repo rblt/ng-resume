@@ -1,0 +1,128 @@
+﻿{
+    "experiences": {
+        "mainSkills": [
+            {
+                "title": "C#",
+                "skills": [
+                    "all .NET versions till 4.5",
+                    "ASP.NET",
+                    "WCF",
+                    "Web API",
+                    "MVC"
+                ],
+                "barTitle": "8 years of work experience",
+                "percent": 100,
+                "barCss": ""
+            },
+            {
+                "title": "Javascript, Typescript",
+                "skills": [
+                    "jQuery",
+                    "KnockOut",
+                    "Durandal",
+                    "Angular",
+                    "Breeze",
+                    "Kendo"
+                ],
+                "barTitle": "4 years of work experience",
+                "percent": 75,
+                "barCss": "info"
+            },
+            {
+                "title": "Latest web technologies",
+                "skills": [
+                    "HTML 5",
+                    "CSS 3",
+                    "LESS",
+                    "SASS",
+                    "Twitter Bootstrap",
+                    "AJAX",
+                    "JSON",
+                    "XML"
+                ],
+                "barTitle": "2 years of work experience",
+                "percent": 50,
+                "barCss": "warning"
+            },
+            {
+                "title": "SQL, NoSQL",
+                "skills": [
+                    "MySQL",
+                    "SqLite",
+                    "MongoDb",
+                    "Redis"
+                ],
+                "barTitle": null,
+                "percent": 25,
+                "barCss": "error"
+            }
+        ],
+        "misc": {
+            "subTitle": "stuffs I worked with",
+            "skillsBetterFirst": [
+                "Subversion",
+                "Git",
+                "Windows Forms",
+                "SoapUI",
+                "Fiddler",
+                "TOAD",
+                "C++",
+                "Managed C++",
+                "LeafletJS",
+                "QGIS",
+                "JOSM",
+                "OpenLayers",
+                "Google Maps APIs",
+                "Photoshop",
+                "Telerik",
+                "WPF",
+                "PL/SQL",
+                "AxureRP",
+                "Python",
+                "LaTeX"
+            ]
+        },
+        "langs": [
+            {
+                "name": "English",
+                "level": "Professional working proficiency"
+            },
+            {
+                "name": "Hungarian",
+                "level": "Native proficiency"
+            }
+        ]
+    },
+    "workPlaces": [
+        {
+            "from": "2011-01-01T00:00:00",
+            "to": null,
+            "company": "Secret Control GPS Ltd.",
+            "position": "Senior software engineer",
+            "location": "Budapest",
+            "stories": [
+                "Continous developement and support of the company's current GPS based fleet tracking products, like public client desktop and web applications, private intranet applications, interfacing applications with other systems (like the Hungarian Electronic Toll System (HU-GO), or the work management system of ELMŰ Zrt.).",
+                "Diverse tasks: not only supporting the client frontend applications written in various technologies like Windows Forms (or the Compact Framework for PDA apps), ASP.NET, but also participating in the development of our back-end systems (mainly in WCF)."
+            ],
+            "subStories": null
+        },
+        {
+            "from": "2010-12-01T00:00:00",
+            "to": "2007-09-01T00:00:00",
+            "company": "Fornax Chc.",
+            "position": "Junior software developer",
+            "location": "Budapest",
+            "stories": [ "Mainly frontend developement and support in ASP.NET environment for the hungarian Central Clearing House and Depository Ltd. (KELER Zrt.). These web applications included several modules which helped the decision makers' workflow by maintaining data of shareholders, share data between peer systems, managing the settlement of the stock exchange, monitoring remote clearing transactions, etc." ],
+            "subStories": null
+        },
+        {
+            "from": "2006-09-01T00:00:00",
+            "to": "2007-05-01T00:00:00",
+            "company": "Mexx Hungary Ltd.",
+            "position": "Freelance software developer",
+            "location": "Budapest",
+            "stories": [ "Development and support of a desktop application in .NET environment for monitoring sales data. My first contract as a freelance software developer." ],
+            "subStories": null
+        }
+    ]
+}

@@ -1,0 +1,344 @@
+﻿{
+  "profile": {
+    "name": "Rábolt Oszkár",
+    "birthDate": "1982-08-26T00:00:00.000",
+    "profession": "Full-stack web fejlesztő",
+    "address": {
+      "street": "Csengery u.",
+      "city": "Budapest, 1067",
+      "country": "Magyarország, HU"
+    },
+    "phone": "(+36) 20 996 5586",
+    "email": "rabolto@gmail.com",
+    "linkedin": "http://hu.linkedin.com/in/rabolto",
+    "github": "http://github.com/rblt",
+    "quote": "Science is what we understand well enough to explain to a computer.\nArt is everything else we do.",
+    "quoteAuthor": "Donald Knuth"
+  },
+  "heroStack": [
+    {
+      "cssClass": "red",
+      "items": [
+        {
+          "name": "SQL",
+          "percent": 0.35
+        },
+        {
+          "name": "MongoDb / Redis",
+          "percent": 0.65
+        }
+      ]
+    },
+    {
+      "cssClass": "yellow",
+      "items": [
+        {
+          "name": "ASP.NET WCF",
+          "percent": 0.5
+        },
+        {
+          "name": "MVC / Web API",
+          "percent": 0.5
+        }
+      ]
+    },
+    {
+      "cssClass": "green",
+      "items": [
+        {
+          "name": "MSPEC + Moq"
+        }
+      ]
+    },
+    {
+      "cssClass": "blue",
+      "items": [
+        {
+          "name": "Breeze / KnockOut / Durandal",
+          "percent": 0.7
+        },
+        {
+          "name": "jQuery / Kendo",
+          "percent": 0.3
+        }
+      ]
+    },
+    {
+      "cssClass": "orange",
+      "items": [
+        {
+          "name": "Jasmine + PhantomJs"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "title": "Skills",
+    "mainSkills": [
+      {
+        "title": "C#",
+        "skills": [
+          ".NET",
+          "ASP.NET",
+          "WCF",
+          "Web API",
+          "MVC\n",
+          "WebForms",
+          "Windows Forms"
+        ],
+        "barTitle": "9 years of work experience",
+        "percent": 100,
+        "barCss": "progress-bar-success"
+      },
+      {
+        "title": "Javascript, Typescript",
+        "skills": [
+          "jQuery",
+          "KnockOut",
+          "Durandal\n",
+          "Breeze",
+          "LeafletJS",
+          "SignalR"
+        ],
+        "barTitle": "5 years of work experience",
+        "percent": 75,
+        "barCss": "progress-bar-info"
+      },
+      {
+        "title": "Latest web technologies",
+        "skills": [
+          "HTML 5",
+          "CSS 3",
+          "LESS",
+          "SASS\n",
+          "Twitter Bootstrap",
+          "AJAX",
+          "JSON",
+          "XML"
+        ],
+        "barTitle": "3 years of work experience",
+        "percent": 50,
+        "barCss": "progress-bar-warning"
+      },
+      {
+        "title": "SQL, NoSQL",
+        "skills": [
+          "MySQL",
+          "SqLite",
+          "MongoDb",
+          "Redis"
+        ],
+        "barTitle": null,
+        "percent": 25,
+        "barCss": "progress-bar-danger"
+      }
+    ],
+    "misc": {
+      "title": "Miscellaneous",
+      "subTitle": "stuffs I worked with",
+      "skillsBetterFirst": [
+        "Git",
+        "TOAD",
+        "Kendo UI",
+        "Angular",
+        "Fiddler",
+        "SoapUI",
+        "Subversion",
+        "C++",
+        "Managed C++",
+        "QGIS",
+        "JOSM",
+        "OpenLayers",
+        "Google Maps APIs",
+        "Photoshop",
+        "Telerik",
+        "WPF",
+        "PL/SQL",
+        "AxureRP",
+        "Python",
+        "LaTeX"
+      ]
+    },
+    "langSkills": {
+      "title": "Foreign languages",
+      "langs": [
+        {
+          "name": "English",
+          "level": "Professional working proficiency"
+        },
+        {
+          "name": "Hungarian",
+          "level": "Native proficiency"
+        }
+      ]
+    }
+  },
+  "experience": {
+    "title": "Tapasztalat",
+    "projectsHeading": {
+      "title": "Projektek",
+      "subtitle": "és technológiák"
+    },
+    "workPlaces": [
+      {
+        "from": "2011-01-01T00:00:00",
+        "to": null,
+        "company": "Secret Control GPS Kft.",
+        "position": "Vezető fejlesztő /\n Szenior szoftverfejlesztő",
+        "location": "Budapest",
+        "stories": [
+          "Folyamatos fejlesztése és támogatása a cég GPS alapú flottakövető termékeinek, mint példúul a deszktop és webes ügyfélalkalmazások, belső intranetes alkalmazások, külső rendszerekkel együttműködő interfész alkalmazások (mint például a Magyar Útdíjszolgáltató (HU-GO), vagy az ELMŰ Zrt. munkairányítási rendszere).",
+          "Változatos feladatok: nem csak a különböző technológiákon (pl. Windows Forms (vagy a Compact Framework a PDA alkalmazásokhoz), ASP.NET) alapuló front-end ügyfélalkalmazások támogatása, de részvétel a back-end rendszerek fejlesztésében (főleg WCF alapokon)."
+        ],
+        "projects": [
+          {
+            "title": "**UI és back-end fejlesztés** a cég új **single page (SPA) alkalmazásához**, melyet teljesen Typescript nyelven fejlesztünk. A back-end C# nyelven, ASP.NET Web API 2-ben van implementálva.",
+            "technologies": [ "C#", ".NET", "Web API", "Redis", "JSON", "CSS3", "LESS", "HTML5", "Typescript", "jQuery", "KnockOut", "RequireJs", "Durandal", "Kendo", "Breeze", "Leaflet", "Grunt", "Jasmine" ],
+            "from": "2014-10-01T00:00:00.000",
+            "to": null
+          },
+          {
+            "title": "**Webservice fejlesztés ASP.NET Web API 2 alapokon** a cég rendszereinek a Nemzeti Mobilfizetési Zrt. interfészéhez csatlakoztatásához, hogy ügyfeleink a saját eszközeink segítségével is tudjanak parkolást kezdeményezni.",
+            "technologies": [ "C#", ".NET", "Web API", "MySQL", "MongoDb", "Telerik ORM" ],
+            "from": "2014-09-01T00:00:00.000",
+            "to": "2014-12-01T00:00:00.000"
+          },
+          {
+            "title": "**Webszerviz fejlesztés ASP.NET WCF alapokon** cégünk Androidos applikációjához, mely segítségével vagyonvédelmi, státuszlekérdezési, parkolási funkciókat tud kezdeményezni a jármű tulajdonosa.",
+            "technologies": [ "C#", ".NET", "WCF", "MySQL", "JSON", "CSS3", "HTMl5", "Javascript", "jQuery", "KnockOut", "Kendo", "Twitter Bootstrap" ],
+            "from": "2014-06-01T00:00:00.000",
+            "to": "2014-09-01T00:00:00.000"
+          },
+          {
+            "title": "**Webszerviz fejlesztés ASP.NET WCF alapokon** mivel a cégünk csatlakozott az Elektronikus Útdíjfizetési Rendszerhez (HU-GO), úgy mint a legnagyobb bevallási közreműködő.",
+            "technologies": [ "C#", ".NET", "WCF", "MongoDb", "MySQL", "JSON", "XML", "CSS3", "HTML5", "Javascript", "jQuery", "KnockOut", "Kendo", "Twitter Bootstrap" ],
+            "from": "2013-06-01T00:00:00.000",
+            "to": "2014-03-01T00:00:00.000"
+          },
+          {
+            "title": "A cég egyetlen PDA alkalmazásának **UI fejlesztése a kompakt .NET keretrendszer Windows Forms technológiájával**, kifejezetten az ELMŰ Zrt. munkairányítási rendszeréhez.",
+            "technologies": [ "C#", ".NET CF", "WinForms", "SQLite" ],
+            "from": "2013-01-01T00:00:00.000",
+            "to": "2013-06-01T00:00:00.000"
+          },
+          {
+            "title": "A cég fő desktop és web alkalmazásainak támogatása és **UI fejlesztése Windows Forms és WebForms alapú technológiákon** (majd később egyes részek MVC-ben), melyeknek több mint 1500 felhasználójuk van naponta.",
+            "technologies": [ "C#", ".NET", "ASP.NET", "ASP.NET MVC", "WinForms", "WebForms", "Telerik", "Javascript", "ASP.NET AJAX", "jQuery", "Kendo", "CSS", "HTML", "JSON", "XML", "OpenLayers", "Google Maps" ],
+            "from": "2011-01-01T00:00:00.000",
+            "to": "2013-05-01T00:00:00.000"
+          }
+        ]
+      },
+      {
+        "from": "2007-09-01T00:00:00",
+        "to": "2010-12-01T00:00:00",
+        "company": "Fornax Zrt.",
+        "position": "Junior szoftverfejlesztő",
+        "location": "Budapest",
+        "stories": [ "Főleg front-end fejlesztés ASP.NET környezetben a Központi Elszámolóház és Értékrtár (KELER Zrt.) részére. Ezek a web-alkalmazások számos modult tartalmaztak, hogy segítsék a döntéshozók munkafolyamatait a részvényesek adatainak nyilvántartásában, társrendszerekkel való adatmegosztásban, tőzsdei elszámolások kezelésében, illetve távoli klíring tranzakciók monitorozásában." ],
+        "projects": [
+          {
+            "title": "A meglévő diszpécser rendszer **webes felületének teljes újraírása ASP.NET környezetben** a *Keler Zrt.* számára.",
+            "technologies": [ "C#", ".NET", "ASP.NET", "MS SQL", "WebSphere MQ", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2010-06-01T00:00:00.000",
+            "to": "2010-09-01T00:00:00.000"
+          },
+          {
+            "title": "**Webes felület fejlesztése ASP.NET környezetben** a határidős és azonnali piac valós idejű elszámolását támogató rendszerhez a *Keler Zrt.* számára.",
+            "technologies": [ "C#", ".NET", "ASP.NET", "Oracle", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2008-06-01T00:00:00.000",
+            "to": "2009-10-01T00:00:00.000"
+          },
+          {
+            "title": "**Webszervízes szolgáltatások fejlesztése ASP.NET környezetben** a meglévő Központi Partnertörzs (KPT) rendszerhez a *Keler Zrt.* számára.",
+            "technologies": [ "C#", ".NET", "ASP.NET", "SOAP", "Oracle", "Javascript", "Infragistics", "AJAX" ],
+            "from": "2009-02-01T00:00:00.000",
+            "to": "2009-05-01T00:00:00.000"
+          },
+          {
+            "title": "**Webes felület fejlesztése ASP.NET környezetben** a részvénykönyvek nyilvántartását támogató rendszerhez a *Keler Zrt.* számára.",
+            "technologies": [ "C#", ".NET", "ASP.NET", "Oracle", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2008-06-01T00:00:00.000",
+            "to": "2008-12-01T00:00:00.000"
+          },
+          {
+            "title": "**Webes felület fejlesztése ASP.NET környezetben** a külföldi partnerek azonnali piaci elszámolását támogató rendszerhez a *Keler Zrt.* számára.",
+            "technologies": [ "C#", ".NET", "ASP.NET", "Oracle", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2008-01-01T00:00:00.000",
+            "to": "2008-06-01T00:00:00.000"
+          }
+        ]
+      },
+      {
+        "from": "2006-09-01T00:00:00",
+        "to": "2007-05-01T00:00:00",
+        "company": "Mexx Magyarország Kft.",
+        "position": "Szabadúszó szoftverfejlesztő",
+        "location": "Budapest",
+        "stories": [ "Egy deszktop alkalmazás fejlesztése és támogatása .NET környezetben eladási adatok monitorozásához. Az első megbízásom szabadúszó szoftverfejlesztőként." ],
+        "projects": null
+      }
+    ]
+  },
+  "education": {
+    "title": "Tanulmányok",
+    "schools": [
+      {
+        "name": "Eötvös Loránd Tudományegyetem",
+        "degree": "Egyetemi diploma\n(Programtervező matematikus)",
+        "from": "2001-09-01T00:00:00.000",
+        "to": "2008-06-01T00:00:00.000",
+        "location": "Budapest",
+        "story": "A diplomamunka dolgozatom számos természet által ihletett algoritmust tárgyal (mint például szimulált hűtés, genetikus algoritmus, stb.) és összehasonlítja őket a felhasználhatóságuk és teljesítményük alapján. A dolgozat magába foglal egy C++ nyelven írt általános metaheurisztikai keretrendszert a LEMON C++ projekthez.",
+        "storyTitle": "Diplomamunka: Metaheurisztikák implementálása"
+      },
+      {
+        "name": "Leőwey Klára Gimnázium",
+        "degree": null,
+        "from": "1997-09-01T00:00:00.000",
+        "to": "2001-06-01T00:00:00.000",
+        "location": "Pécs",
+        "story": "Nem történt semmi különös.",
+        "storyTitle": null
+      },
+      {
+        "name": "Általános Iskola",
+        "degree": null,
+        "from": "1989-09-01T00:00:00.000",
+        "to": "1997-06-01T00:00:00.000",
+        "location": "Szekszárd",
+        "story": "Első *\"Hello, World!\"* programom BASIC-ben.",
+        "storyTitle": "Megkaptam a C64-em!"
+      }
+    ]
+  },
+  "about": {
+    "title": "Magamról",
+    "qualities": {
+      "Nemzetiség": "Magyar",
+      "Családi állapot": "Nőtlen",
+      "Van gyermekem": "Nincs",
+      "Jogosítvány": "B kategóriás",
+      "Személyiség": "Nyitott, szívesen tanul, csapatjátékos, precíz, felelősségteljes, kreatív, rugalmas, társasági"
+    },
+    "story": [
+      "Folyamatosan érdeklődöm az új ígéretes technológiák iránt, mostanában legjobban a web-alkalmazás fejlesztésre használható SPA keretrendszerek érdekelnek, de szívesen fogadok más egyéb technológiai újításokat a weben.\nA front-end fejlesztés mellett, nemrégiben megismerkedtem egy NoSQL megoldással, a MongoDB adatbázissal, amely egy meglehtősen kellemes tapasztalatszerzés volt egy utóbbi projektemhez - mivel már *'tegnapra'* kész kellett lennie - így tervbe vettem a technológia alaposabb megismerését.",
+      "A szabadidőmet sok sportolással töltöm, úgy mint a futás, edzés, síelés, de a legnagyobb kedvencem a wakeboardozás. Ezek miatt is foglalkoztat az egészséges táplálkozás, hogy megfelelő szinten tarthassam a kondiciómat. Mivel társasági ember vagy, szeretek barátokkal találkozni, moziba menni, vagy külföldi országokba utazni."
+    ],
+    "storyTitle": "Én"
+  },
+  "hireButton": {
+    "title": "Felvesz",
+    "popoverText": "Kérlek, lépj kapcsolatba velem!"
+  },
+  "downloadCvLink": {
+    "title": "CV letöltése",
+    "href": "cv-rabolt-hun.pdf"
+  },
+  "lastUpdated": "2015-12-31T00:00:00.000",
+  "$dateFormat": {
+    "yearAndMonth": "yyyy MMMM",
+    "full": "yyyy.MM.dd.",
+    "presentTitle": "Jelenleg"
+  }
+}

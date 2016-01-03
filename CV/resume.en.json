@@ -1,0 +1,344 @@
+﻿{
+  "profile": {
+    "name": "Oszkár Rábolt",
+    "birthDate": "1982-08-26T00:00:00.000",
+    "profession": "Full-stack web developer",
+    "address": {
+      "street": "Izabella str.",
+      "city": "Budapest, 1064",
+      "country": "Hungary, HU"
+    },
+    "phone": "(+36) 20 996 5586",
+    "email": "rabolto@gmail.com",
+    "linkedin": "http://hu.linkedin.com/in/rabolto",
+    "github": "http://github.com/rblt",
+    "quote": "Science is what we understand well enough to explain to a computer.\nArt is everything else we do.",
+    "quoteAuthor": "Donald Knuth"
+  },
+  "heroStack": [
+    {
+      "cssClass": "red",
+      "items": [
+        {
+          "name": "SQL",
+          "percent": 0.35
+        },
+        {
+          "name": "MongoDb / Redis",
+          "percent": 0.65
+        }
+      ]
+    },
+    {
+      "cssClass": "yellow",
+      "items": [
+        {
+          "name": "ASP.NET WCF",
+          "percent": 0.5
+        },
+        {
+          "name": "MVC / Web API",
+          "percent": 0.5
+        }
+      ]
+    },
+    {
+      "cssClass": "green",
+      "items": [
+        {
+          "name": "MSPEC + Moq"
+        }
+      ]
+    },
+    {
+      "cssClass": "blue",
+      "items": [
+        {
+          "name": "Breeze / KnockOut / Durandal",
+          "percent": 0.7
+        },
+        {
+          "name": "jQuery / Kendo",
+          "percent": 0.3
+        }
+      ]
+    },
+    {
+      "cssClass": "orange",
+      "items": [
+        {
+          "name": "Jasmine + PhantomJs"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "title": "Skills",
+    "mainSkills": [
+      {
+        "title": "C#",
+        "skills": [
+          ".NET",
+          "ASP.NET",
+          "WCF",
+          "Web API",
+          "MVC\n",
+          "WebForms",
+          "Windows Forms"
+        ],
+        "barTitle": "9 years of work experience",
+        "percent": 100,
+        "barCss": "progress-bar-success"
+      },
+      {
+        "title": "Javascript, Typescript",
+        "skills": [
+          "jQuery",
+          "KnockOut",
+          "Durandal\n",
+          "Breeze",
+          "LeafletJS",
+          "SignalR"
+        ],
+        "barTitle": "5 years of work experience",
+        "percent": 75,
+        "barCss": "progress-bar-info"
+      },
+      {
+        "title": "Latest web technologies",
+        "skills": [
+          "HTML 5",
+          "CSS 3",
+          "LESS",
+          "SASS\n",
+          "Twitter Bootstrap",
+          "AJAX",
+          "JSON",
+          "XML"
+        ],
+        "barTitle": "3 years of work experience",
+        "percent": 50,
+        "barCss": "progress-bar-warning"
+      },
+      {
+        "title": "SQL, NoSQL",
+        "skills": [
+          "MySQL",
+          "SqLite",
+          "MongoDb",
+          "Redis"
+        ],
+        "barTitle": null,
+        "percent": 25,
+        "barCss": "progress-bar-danger"
+      }
+    ],
+    "misc": {
+      "title": "Miscellaneous",
+      "subTitle": "stuffs I worked with",
+      "skillsBetterFirst": [
+        "Git",
+        "TOAD",
+        "Kendo UI",
+        "Angular",
+        "Fiddler",
+        "SoapUI",
+        "Subversion",
+        "C++",
+        "Managed C++",
+        "QGIS",
+        "JOSM",
+        "OpenLayers",
+        "Google Maps APIs",
+        "Photoshop",
+        "Telerik",
+        "WPF",
+        "PL/SQL",
+        "AxureRP",
+        "Python",
+        "LaTeX"
+      ]
+    },
+    "langSkills": {
+      "title": "Foreign languages",
+      "langs": [
+        {
+          "name": "English",
+          "level": "Professional working proficiency"
+        },
+        {
+          "name": "Hungarian",
+          "level": "Native proficiency"
+        }
+      ]
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "projectsHeading": {
+      "title": "Projects",
+      "subtitle": "and technologies"
+    },
+    "workPlaces": [
+      {
+        "from": "2011-01-01T00:00:00",
+        "to": null,
+        "company": "Secret Control GPS Ltd.",
+        "position": "Lead programmer /\n Senior software engineer",
+        "location": "Budapest",
+        "stories": [
+          "Continous developement and support of the company's current GPS based fleet tracking products, like public client desktop and web applications, private intranet applications, interfacing applications with other systems (like the Hungarian Electronic Toll System (HU-GO), or the work management system of ELMŰ Zrt.).",
+          "Diverse tasks: not only supporting the client frontend applications written in various technologies like Windows Forms (or the Compact Framework for PDA apps), ASP.NET, but also participating in the development of our back-end systems (mainly in WCF)."
+        ],
+        "projects": [
+          {
+            "title": "**UI and back-end developement** of the company's new **single page application** (SPA) written in pure Typescript. The back-end is implemented in ASP.NET Web API 2, C#.",
+            "technologies": [ "C#", ".NET", "Web API", "Redis", "JSON", "CSS3", "LESS", "HTML5", "Typescript", "jQuery", "KnockOut", "RequireJs", "Durandal", "Kendo", "Breeze", "Leaflet", "Grunt", "Jasmine" ],
+            "from": "2014-10-01T00:00:00.000",
+            "to": null
+          },
+          {
+            "title": "**Webservice developement in ASP.NET Web API** for connecting our back-end system to the Nemzeti Mobilfizetési Zrt.'s interface, in order to let our clients initiate their parking requests with our own devices.",
+            "technologies": [ "C#", ".NET", "Web API", "MySQL", "MongoDb", "Telerik ORM" ],
+            "from": "2014-09-01T00:00:00.000",
+            "to": "2014-12-01T00:00:00.000"
+          },
+          {
+            "title": "**Webservice developement in ASP.NET WCF** for serving a back-end for the company's Android application, which lets the car owner initiate property protection, status querying, and parking actions.",
+            "technologies": [ "C#", ".NET", "WCF", "MySQL", "JSON", "CSS3", "HTMl5", "Javascript", "jQuery", "KnockOut", "Kendo", "Twitter Bootstrap" ],
+            "from": "2014-06-01T00:00:00.000",
+            "to": "2014-09-01T00:00:00.000"
+          },
+          {
+            "title": "**Webservice developement in ASP.NET WCF** since our company has joined the Hungarian electronic toll system (HU-GO) as the largest toll reporting contributor.",
+            "technologies": [ "C#", ".NET", "WCF", "MongoDb", "MySQL", "JSON", "XML", "CSS3", "HTMl5", "Javascript", "jQuery", "KnockOut", "Kendo", "Twitter Bootstrap" ],
+            "from": "2013-06-01T00:00:00.000",
+            "to": "2014-03-01T00:00:00.000"
+          },
+          {
+            "title": "**UI developement in Windows Forms on the .NET Compact Framework** of the company's only PDA application, dedicated to ELMŰ Zrt.'s (Hungarian electricity supplier) workflow system.",
+            "technologies": [ "C#", ".NET CF", "WinForms", "SQLite" ],
+            "from": "2013-01-01T00:00:00.000",
+            "to": "2013-06-01T00:00:00.000"
+          },
+          {
+            "title": "**UI developement in Windows Forms and WebForms** (and later some portions in MVC), and support of the company's main desktop and web applications used by 1500+ users daily.",
+            "technologies": [ "C#", ".NET", "ASP.NET", "ASP.NET MVC", "WinForms", "WebForms", "Telerik", "Javascript", "ASP.NET AJAX", "jQuery", "Kendo", "CSS", "HTML", "JSON", "XML", "OpenLayers", "Google Maps" ],
+            "from": "2011-01-01T00:00:00.000",
+            "to": "2013-05-01T00:00:00.000"
+          }
+        ]
+      },
+      {
+        "from": "2007-09-01T00:00:00",
+        "to": "2010-12-01T00:00:00",
+        "company": "Fornax Zrt.",
+        "position": "Junior software developer",
+        "location": "Budapest",
+        "stories": [ "Mainly frontend developement and support in ASP.NET environment for the hungarian Central Clearing House and Depository Ltd. (KELER Zrt.). These web applications included several modules which helped the decision makers' workflow by maintaining data of shareholders, share data between peer systems, managing the settlement of the stock exchange, monitoring remote clearing transactions, etc." ],
+        "projects": [
+          {
+            "title": "**User interface development of a web application in ASP.NET** environment for the replacement of an old ASP application at the *Central Clearing House and Depository (KELER) Zrt.*",
+            "technologies": [ "C#", ".NET", "ASP.NET", "MS SQL", "WebSphere MQ", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2010-06-01T00:00:00.000",
+            "to": "2010-09-01T00:00:00.000"
+          },
+          {
+            "title": "**User interface development of a web application in ASP.NET** environment for managing the settlement of the  hungarian stock exchange at *Central Clearing House and Depository (KELER) Zrt.*",
+            "technologies": [ "C#", ".NET", "ASP.NET", "Oracle", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2008-06-01T00:00:00.000",
+            "to": "2009-10-01T00:00:00.000"
+          },
+          {
+            "title": "**Development of webservices** for an existing application **in ASP.NET** environment to share data between peer systems at *Central Clearing House and Depository (KELER) Zrt.*",
+            "technologies": [ "C#", ".NET", "ASP.NET", "SOAP", "Oracle", "Javascript", "Infragistics", "AJAX" ],
+            "from": "2009-02-01T00:00:00.000",
+            "to": "2009-05-01T00:00:00.000"
+          },
+          {
+            "title": "**User interface development of a web application in ASP.NET** environment for maintaining data of shareholders at *Central Clearing House and Depository (KELER) Zrt.*",
+            "technologies": [ "C#", ".NET", "ASP.NET", "Oracle", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2008-06-01T00:00:00.000",
+            "to": "2008-12-01T00:00:00.000"
+          },
+          {
+            "title": "**User interface development of a web application in ASP.NET** environment for monitoring remote clearing transactions at *Central Clearing House and Depository (KELER) Zrt.*",
+            "technologies": [ "C#", ".NET", "ASP.NET", "Oracle", "Javascript", "Infragistics", "AJAX", "HTML", "CSS" ],
+            "from": "2008-01-01T00:00:00.000",
+            "to": "2008-06-01T00:00:00.000"
+          }
+        ]
+      },
+      {
+        "from": "2006-09-01T00:00:00",
+        "to": "2007-05-01T00:00:00",
+        "company": "Mexx Hungary Ltd.",
+        "position": "Freelance software developer",
+        "location": "Budapest",
+        "stories": [ "Development and support of a desktop application in .NET environment for monitoring sales data. My first contract as a freelance software developer." ],
+        "projects": null
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "schools": [
+      {
+        "name": "Eötvös Loránd University",
+        "degree": "Msc. in computer science\n(Programdesigner mathematician)",
+        "from": "2001-09-01T00:00:00.000",
+        "to": "2008-06-01T00:00:00.000",
+        "location": "Budapest",
+        "story": "My thesis discusses several popular metaheuristics inspired by nature (like simulated annealing, genetic algorithm, etc.) and compares them by their use cases and performance. The work also includes a generic metaheuristics framework as a contribution for the LEMON C++ project written in pure C++.",
+        "storyTitle": "Thesis: Implementing metaheuristics"
+      },
+      {
+        "name": "Leőwey Klára Grammar School",
+        "degree": null,
+        "from": "1997-09-01T00:00:00.000",
+        "to": "2001-06-01T00:00:00.000",
+        "location": "Pécs",
+        "story": "Nothing special happened.",
+        "storyTitle": null
+      },
+      {
+        "name": "Elementary School",
+        "degree": null,
+        "from": "1989-09-01T00:00:00.000",
+        "to": "1997-06-01T00:00:00.000",
+        "location": "Szekszárd",
+        "story": "My first *\"Hello, World!\"* program in BASIC.",
+        "storyTitle": "Got my C64!"
+      }
+    ]
+  },
+  "about": {
+    "title": "About myself",
+    "qualities": {
+      "Nationality": "Hungarian",
+      "Maritial status": "Not married",
+      "Have children": "No",
+      "Driving license": "Category \"B\"",
+      "Personal qualities": "Open-minded, eager to learn, team player, precise, responsible, creative, flexible, social"
+    },
+    "story": [
+      "I'm always looking for new promising technologies, currently i'm very interested in SPA frameworks for web application developement, but any other cutting-edge technologies are welcome.\nBesides the front-end developement, I recently got familiar with a NoSQL solution, the MongoDB database, which was a quite nice experience for my last project - as it needed to be done *'yesterday'* - so I'm also planning to get a deeper knowledge of it.",
+      "In my freetime, I spend it on doing lots of sports, like running, doing workouts, skiing, and my big favourite is wakeboarding. According to these, I'm interested in healthy diet, to keep myself in a decent condition. I'm a social person, so I like meeting with friends, going to cinema, or traveling to foreign countries."
+    ],
+    "storyTitle": "Me"
+  },
+  "hireButton": {
+    "title": "Hire",
+    "popoverText": "Please use one of my contacts!"
+  },
+  "downloadCvLink": {
+    "title": "Download CV",
+    "href": "cv-rabolt-eng.pdf"
+  },
+  "lastUpdated": "2015-12-31T00:00:00.000",
+  "$dateFormat": {
+    "yearAndMonth": "MMM yyyy",
+    "full": "M/d/yyyy",
+    "presentTitle": "Present"
+  }
+}

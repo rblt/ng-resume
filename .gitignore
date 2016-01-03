@@ -7,6 +7,11 @@
 *.userosscache
 *.sln.docstates
 
+CV/main.js
+CV/main.js.map
+CV/angular/**/*.js
+CV/angular/**/*.js.map
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
