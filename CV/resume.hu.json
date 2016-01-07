@@ -73,7 +73,7 @@
     }
   ],
   "skills": {
-    "title": "Skills",
+    "title": "Képességek",
     "mainSkills": [
       {
         "title": "C#",
@@ -86,7 +86,7 @@
           "WebForms",
           "Windows Forms"
         ],
-        "barTitle": "9 years of work experience",
+        "barTitle": "9 év munkatapasztalat",
         "percent": 100,
         "barCss": "progress-bar-success"
       },
@@ -100,12 +100,12 @@
           "LeafletJS",
           "SignalR"
         ],
-        "barTitle": "5 years of work experience",
+        "barTitle": "5 év munkatapasztalat",
         "percent": 75,
         "barCss": "progress-bar-info"
       },
       {
-        "title": "Latest web technologies",
+        "title": "Webes technológiák",
         "skills": [
           "HTML 5",
           "CSS 3",
@@ -116,7 +116,7 @@
           "JSON",
           "XML"
         ],
-        "barTitle": "3 years of work experience",
+        "barTitle": "3 év munkatapasztalat",
         "percent": 50,
         "barCss": "progress-bar-warning"
       },
@@ -134,8 +134,8 @@
       }
     ],
     "misc": {
-      "title": "Miscellaneous",
-      "subTitle": "stuffs I worked with",
+      "title": "Egyéb",
+      "subTitle": "dolgok, amikkel dolgoztam",
       "skillsBetterFirst": [
         "Git",
         "TOAD",
@@ -160,15 +160,15 @@
       ]
     },
     "langSkills": {
-      "title": "Foreign languages",
+      "title": "Idegen nyelvek",
       "langs": [
         {
-          "name": "English",
-          "level": "Professional working proficiency"
+          "name": "Angol",
+          "level": "Szakmai szintű középfok"
         },
         {
-          "name": "Hungarian",
-          "level": "Native proficiency"
+          "name": "Magyar",
+          "level": "Anyanyelvi szintű"
         }
       ]
     }

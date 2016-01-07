@@ -38,49 +38,13 @@
     <script type="text/javascript" src="Scripts/angular-sanitize.js"></script>
     <script type="text/javascript" src="Scripts/angular-animate.js"></script>
 </head>
-<body role="document" ng-controller="resumeCtrl">
+<body class="printable" role="document" ng-controller="resumeCtrl">
     <div class="parallax">
         <div class="parallax_layer back">
         </div>
         <div class="parallax_layer base">
-            <div id="header" class="container-holder hidden-print">
-                <div class="container">
-                    <div class="page-header">
-                        <div class="pull-right">
-                            <ul class="nav nav-pills">
-                                <li ng-class="{ active: resume.lang == 'en' }"><a href="#/">ENG</a></li>
-                                <li ng-class="{ active: resume.lang == 'hu' }"><a href="#/hu">HUN</a></li>
-                            </ul>
-                            <h5 id="download">
-                                <span class="icon-file-pdf"></span><a ng-href="{{resume.downloadCvLink.href}}">{{resume.downloadCvLink.title}}</a>
-                            </h5>
-                        </div>
-                        <div id="namecard" ng-cloak>
-                            <img src="Content/images/oscar.jpg" alt="Profile picture" class="profile-pic img-circle pull-left" />
-                            <div class="h2">{{resume.profile.name}} <sup><span class="badge">{{resume.profile.age}}</span></sup></div>
-                            <i class="h4">{{resume.profile.profession}}</i>
-                            <a ng-href="mailto:{{resume.profile.email}}"><span class="glyphicon glyphicon-envelope"></span></a>
-                            <a ng-href="{{resume.profile.linkedin}}"><span class="icon-linkedin"></span></a>
-                            <a ng-href="{{resume.profile.github}}"><span class="icon-github"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container visible-lg" ng-style="{ height: (54 * resume.heroStack.length) + 'px' }">
-                <div id="hero" class="visible-lg hidden-print">
-                    <div ng-repeat="layer in resume.heroStack">
-                        <div class="bar corner left" ng-class="[ resume.heroStack[$index - 1].cssClass, 'dark' ]"  ng-hide="$first || $last || $even"></div>
-                   
-                        <div ng-repeat="item in layer.items" class="bar" ng-class="layer.cssClass" ng-class-odd="'dark'" ng-style="{ width: (1120 * (item.percent || 1)) + 'px' }">{{item.name}}</div>
-                 
-                        <div class="bar corner right" ng-class="[ resume.heroStack[$index - 1].cssClass, 'dark' ]" ng-hide="$first || $odd"></div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="legend">
-                        <span>The stack</span>
-                    </div>                      
-                </div>
-                <div id="profile" class="visible-print-block">
+            <div class="container">
+                <div id="profile">
                     <div class="row">
                         <div class="col-lg-3 text-center">
                             <img src="Content/images/oscar.jpg" alt="Profile picture" class="profile-pic img-circle" />
@@ -129,7 +93,7 @@
                                         </span>
                                     </address>
                                 </div>
-                                <div class="col-lg-6 col-md-7 col-sm-6 col-xs-4 hirebutton">
+                                <div class="col-lg-6 col-md-7 col-sm-6 col-xs-4 hirebutton hidden">
                                     <div class="btn btn-lg btn-success"  style="display:inline;" data-toggle="popover" data-placement="left" ng-attr-data-content="{{resume.hireButton.popoverText}}">
                                             {{resume.hireButton.title}}
                                     </div>
@@ -209,7 +173,7 @@
                             </div>  
                         </div>
                     </div>
-                    <div class="container-fluid projects" ng-if="workPlace.projects" ng-class="{ 'blue-bg' : $index }">
+                    <div class="container-fluid projects" ng-if="workPlace.projects">
                         <div class="heading hidden-print">
                             <span class="h3">{{resume.experience.projectsHeading.title}}</span>
                             <p class="h5">{{resume.experience.projectsHeading.subtitle}}</p>

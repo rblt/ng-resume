@@ -79,6 +79,7 @@
     border-radius: 6px;
     background-color: #eee;
     padding: 20px;
+    margin: 14px 0;
 }
 
 #profile img.profile-pic {
@@ -218,6 +219,15 @@ div.projects div.heading p.h4 {
     background-repeat:repeat-y;
     background-size: cover;
     height:2600px;
+}
+
+.printable .parallax_layer.back, .printable div.projects {
+    background-image: none;
+    background-color: #efefef;
+}
+
+.printable div.well {
+    border-color: #666;
 }
 
 div.projects span.badge {

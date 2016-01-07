@@ -27,10 +27,13 @@
     <Content Include="Content\icomoon.css" />
     <Content Include="Content\images\cloudy_sky_background.jpg" />
     <Content Include="Content\images\oscar.jpg" />
+    <Content Include="Content\images\preview.jpg" />
+    <Content Include="Content\images\thumb.jpg" />
     <Content Include="Content\theme.css" />
     <Content Include="Content\theme\bootstrap.min.css" />
     <Content Include="Content\theme\bootstrap1.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="printable.html" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
